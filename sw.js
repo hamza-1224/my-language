@@ -1,4 +1,4 @@
-// Zabaan offline support.
+// My Language offline support.
 // Pages, scripts and lessons: network first so updates arrive, but after 4 seconds on a weak
 // connection (or if the network fails) the saved copy is used instead.
 // The database library, fonts and icons never change between releases, so they load from the device.

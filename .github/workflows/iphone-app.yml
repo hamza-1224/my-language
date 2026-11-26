@@ -1,4 +1,4 @@
-# Builds the iPhone app file (Zabaan.ipa) on GitHub's Mac machines.
+# Builds the iPhone app file (My-Language.ipa) on GitHub's Mac machines.
 # It is unsigned: AltStore signs it with your own Apple ID when you install it.
 # Runs when native/ changes, or by hand from the Actions tab ("Run workflow").
 name: Build iPhone app
@@ -46,19 +46,19 @@ jobs:
             CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
             build | tail -n 40
 
-      - name: Package Zabaan.ipa
+      - name: Package My-Language.ipa
         run: |
           APP=native/ios/App/build/Build/Products/Release-iphoneos/App.app
           test -d "$APP"
           mkdir -p out/Payload
           cp -R "$APP" out/Payload/
-          (cd out && zip -qry Zabaan.ipa Payload)
-          ls -lh out/Zabaan.ipa
+          (cd out && zip -qry My-Language.ipa Payload)
+          ls -lh out/My-Language.ipa
 
       - uses: actions/upload-artifact@v4
         with:
-          name: Zabaan-ipa
-          path: out/Zabaan.ipa
+          name: My-Language-ipa
+          path: out/My-Language.ipa
 
       - name: Publish as the "iphone-app" release
         env:
@@ -66,7 +66,7 @@ jobs:
         run: |
           VER=$(grep -o 'APP_VERSION = "[^"]*"' sync.js | cut -d'"' -f2)
           gh release delete iphone-app --yes --cleanup-tag || true
-          gh release create iphone-app out/Zabaan.ipa \
-            --title "Zabaan for iPhone" \
+          gh release create iphone-app out/My-Language.ipa \
+            --title "My Language for iPhone" \
             --notes "Install with AltStore (see native/README.md). Built with app version $VER; newer versions download inside the app when you're online." \
             --latest

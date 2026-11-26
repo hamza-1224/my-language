@@ -1,4 +1,4 @@
-# Zabaan (my-language): notes for future changes
+# My Language (my-language): notes for future changes
 
 - Static web app served by GitHub Pages from `main` at https://hamza-1224.github.io/my-language/
 - `index.html` (page shell), `app.js` (the tutor), `sync.js` (sign-in, Supabase sync, demo, offline cache, updates, feeds), `style.css`, `data/french.js` + `data/persian.js` (course content). `vendor/supabase.js` is supabase-js 2.118.0 (UMD). Font: `fonts/NotoNastaliqUrdu.ttf` (OFL).
@@ -11,4 +11,4 @@
 - Demo: "Try the demo" uses a local store (`zb.demo.data`, `zb.demo.on`), never the database.
 - Releasing a change: bump the version in **three places together**: `version.json`, `APP_VERSION` in `sync.js`, and the `CACHE` name in `sw.js`.
 - Never commit personal data, backups or progress.json. Only the publishable key belongs in `config.js`.
-- iPhone app: `native/` (Capacitor 8, appId io.github.hamza1224.zabaan), Mac app: `desktop/` (Tauri 2). `native/assemble.mjs` writes the stylesheet and scripts into one `app.html` behind `native/loader.html`; at runtime `ZB.inlinePage` builds the same page from the website for updates (`zb.native.app`). Workflows build `Zabaan.ipa` (release `iphone-app`) and `Zabaan.dmg` (release `mac-app`) when those folders change.
+- iPhone app: `native/` (Capacitor 8, appId io.github.hamza1224.mylanguage), Mac app: `desktop/` (Tauri 2). `native/assemble.mjs` writes the stylesheet and scripts into one `app.html` behind `native/loader.html`; at runtime `ZB.inlinePage` builds the same page from the website for updates (`zb.native.app`). Workflows build `My-Language.ipa` (release `iphone-app`) and `My-Language.dmg` (release `mac-app`) when those folders change.

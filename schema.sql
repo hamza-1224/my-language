@@ -1,5 +1,5 @@
--- Zabaan (and My Budget, Kanban): run this once in Supabase → SQL Editor → New query → Run.
--- Already done if you use My Budget: the apps share this table (Zabaan uses the zb_state documents).
+-- My Language (and My Budget, Kanban): run this once in Supabase → SQL Editor → New query → Run.
+-- Already done if you use My Budget: the apps share this table (My Language uses the zb_state documents).
 create table if not exists public.docs (
   user_id    uuid not null default auth.uid() references auth.users(id) on delete cascade,
   coll       text not null,

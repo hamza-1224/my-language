@@ -1,7 +1,7 @@
 [package]
-name = "zabaan"
+name = "my-language"
 version = "1.0.0"
-description = "Zabaan for Mac"
+description = "My Language for Mac"
 authors = ["hamza-1224"]
 license = ""
 repository = ""

@@ -1,6 +1,6 @@
 {
-  "name": "Zabaan",
-  "short_name": "Zabaan",
+  "name": "My Language",
+  "short_name": "My Language",
   "description": "A personal French and Persian tutor.",
   "start_url": "./",
   "scope": "./",

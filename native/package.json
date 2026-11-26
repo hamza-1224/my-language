@@ -2,7 +2,7 @@
   "name": "my-language-native",
   "private": true,
   "version": "1.0.0",
-  "description": "iPhone shell for Zabaan (Capacitor). The app itself is ../index.html.",
+  "description": "iPhone shell for My Language (Capacitor). The app itself is ../index.html.",
   "scripts": {
     "assemble": "node assemble.mjs",
     "sync": "node assemble.mjs && npx cap sync ios"

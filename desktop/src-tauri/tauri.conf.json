@@ -1,8 +1,8 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "Zabaan",
+  "productName": "My Language",
   "version": "1.0.0",
-  "identifier": "io.github.hamza1224.zabaan.mac",
+  "identifier": "io.github.hamza1224.mylanguage.mac",
   "build": {
     "frontendDist": "../www"
   },
@@ -10,7 +10,7 @@
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "Zabaan",
+        "title": "My Language",
         "width": 1000,
         "height": 820,
         "minWidth": 360,
@@ -31,7 +31,7 @@
       "dmg"
     ],
     "category": "Education",
-    "shortDescription": "Zabaan",
+    "shortDescription": "My Language",
     "copyright": "",
     "icon": [
       "icons/32x32.png",

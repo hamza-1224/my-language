@@ -1,4 +1,4 @@
-# Zabaan for iPhone (native app)
+# My Language for iPhone (native app)
 
 A thin native shell (Capacitor 8) around the same app as the website. A full copy of the
 app is built in, so it opens instantly and works with no internet. When you're online it
@@ -7,13 +7,13 @@ Cards sync through Supabase with the website and the Mac app.
 
 ## Get the app file
 
-GitHub builds it on a Mac: **Releases → "Zabaan for iPhone" → My-Zabaan.ipa**
+GitHub builds it on a Mac: **Releases → "My Language for iPhone" → My-Language.ipa**
 (https://github.com/hamza-1224/my-language/releases/tag/iphone-app).
 To rebuild by hand: Actions → "Build iPhone app" → Run workflow.
 
 ## Install with AltStore
 
-Same steps as My Budget (AltServer on the Mac, AltStore on the iPhone): download My-Zabaan.ipa
+Same steps as My Budget (AltServer on the Mac, AltStore on the iPhone): download My-Language.ipa
 in Safari, then AltStore → My Apps → + → pick it. A free Apple ID can keep 3 sideloaded apps
 active at once, and AltStore itself counts as one, so AltStore plus two apps is the limit.
 Signatures last 7 days and AltStore refreshes them when the Mac and iPhone share Wi-Fi.

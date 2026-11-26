@@ -1,4 +1,4 @@
-# Builds the Mac app (Zabaan.dmg, for Apple Silicon and Intel) on GitHub's Mac machines.
+# Builds the Mac app (My-Language.dmg, for Apple Silicon and Intel) on GitHub's Mac machines.
 # Not notarized: the first time, approve it in System Settings > Privacy & Security > Open Anyway.
 # Runs when desktop/ changes, or by hand from the Actions tab ("Run workflow").
 name: Build Mac app
@@ -46,7 +46,7 @@ jobs:
         working-directory: desktop
         run: npm run assemble
 
-      - name: Build Zabaan.app and .dmg
+      - name: Build My Language.app and .dmg
         working-directory: desktop
         run: npx tauri build --target universal-apple-darwin --bundles app,dmg
 
@@ -55,13 +55,13 @@ jobs:
           B=desktop/src-tauri/target/universal-apple-darwin/release/bundle
           ls -R "$B" | head -40
           mkdir -p out
-          cp "$B"/dmg/*.dmg out/Zabaan.dmg
-          (cd "$B/macos" && ditto -c -k --keepParent "Zabaan.app" "$GITHUB_WORKSPACE/out/Zabaan-mac.zip")
+          cp "$B"/dmg/*.dmg out/My-Language.dmg
+          (cd "$B/macos" && ditto -c -k --keepParent "My Language.app" "$GITHUB_WORKSPACE/out/My-Language-mac.zip")
           ls -lh out
 
       - uses: actions/upload-artifact@v4
         with:
-          name: Zabaan-mac
+          name: My-Language-mac
           path: out/*
 
       - name: Publish as the "mac-app" release
@@ -70,7 +70,7 @@ jobs:
         run: |
           VER=$(grep -o 'APP_VERSION = "[^"]*"' sync.js | cut -d'"' -f2)
           gh release delete mac-app --yes --cleanup-tag || true
-          gh release create mac-app out/Zabaan.dmg out/Zabaan-mac.zip \
-            --title "Zabaan for Mac" \
-            --notes "Open Zabaan.dmg and drag Zabaan into Applications. First launch: System Settings > Privacy & Security > Open Anyway. Built with app version $VER; newer versions download inside the app when you're online." \
+          gh release create mac-app out/My-Language.dmg out/My-Language-mac.zip \
+            --title "My Language for Mac" \
+            --notes "Open My-Language.dmg and drag My Language into Applications. First launch: System Settings > Privacy & Security > Open Anyway. Built with app version $VER; newer versions download inside the app when you're online." \
             --latest=false

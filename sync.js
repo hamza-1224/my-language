@@ -1,5 +1,5 @@
 "use strict";
-/* Zabaan hosted: sign-in, sync through Supabase, demo, offline cache and updates.
+/* My Language hosted: sign-in, sync through Supabase, demo, offline cache and updates.
    Progress is three documents in the shared `docs` table (same account as My Budget):
    zb_state/settings {lang, script}, zb_state/fr {...}, zb_state/fa {...}.
    Every key in localStorage starts with "zb." because the site shares its origin with
@@ -116,7 +116,7 @@
     if (!store) return;
     notice(navigator.onLine ? "" : "You're offline. Progress is saved here and syncs when you're back online." + (store.pendingCount() ? " (" + store.pendingCount() + " waiting)" : ""));
   }
-  const brand = '<div class="auth-hero"><img src="img/wave.png" alt=""><div class="logo">zabaan</div></div>';
+  const brand = '<div class="auth-hero"><img src="img/wave.png" alt=""><div class="logo">my language</div></div>';
   function showLogin(msg) {
     const el = overlay('<div class="zb-auth"><div class="card zb-auth-card">' + brand +
       '<h2>Sign in</h2><p class="muted">Use your My Budget account. Your progress syncs between your iPhone and Mac.</p>' +
@@ -149,7 +149,7 @@
       const f = e.target.files[0]; if (!f) return;
       try {
         const j = JSON.parse(await f.text());
-        if (!j || typeof j !== "object" || !(j.fr || j.fa)) throw new Error("This isn't a Zabaan progress file.");
+        if (!j || typeof j !== "object" || !(j.fr || j.fa)) throw new Error("This isn't a My Language progress file.");
         const cur = api.current();
         const merged = { lang: j.lang || cur.lang, script: j.script || cur.script, fr: mergeLang(j.fr, cur.fr), fa: mergeLang(j.fa, cur.fa) };
         api.apply(merged); save(merged); close(); toast("Progress imported");

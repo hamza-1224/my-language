@@ -1,4 +1,4 @@
-# Zabaan · زبان
+# My Language
 
 A personal tutor for **French** and **Persian**, built for an Urdu and Hindi speaker, with a bright, game-like lesson path. Everything is in English; pronunciation and comparisons are shown in everyday Urdu or Hindi (your choice), so you lean on the thousands of words Persian shares with them. It runs on iPhone, Mac and the web from one codebase, works offline, and syncs your progress between devices.
 

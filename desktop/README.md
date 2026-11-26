@@ -1,13 +1,13 @@
-# Zabaan for Mac
+# My Language for Mac
 
 A Tauri 2 window around the same app as the website, with the app built in so it opens
 offline. It downloads newer versions from the website by itself (same loader as the iPhone
 app: `../native/loader.html`) and syncs through the same Supabase account.
 
-Download: https://github.com/hamza-1224/my-language/releases/tag/mac-app → My-Zabaan.dmg
+Download: https://github.com/hamza-1224/my-language/releases/tag/mac-app → My-Language.dmg
 (built by `.github/workflows/mac-app.yml`; universal: Apple Silicon and Intel).
 
-Install: open the .dmg, drag Zabaan into Applications, open it. The first time macOS says it
+Install: open the .dmg, drag My Language into Applications, open it. The first time macOS says it
 can't check the app: open System Settings → Privacy & Security → "Open Anyway". After that it
 opens normally and never expires.
 

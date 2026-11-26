@@ -132,7 +132,7 @@ function render() {
   $("#course").innerHTML = `<button class="course-btn" data-act="menu" aria-label="Change course">${flag(L)}<span>${COURSE[L][0]}</span></button>
     ${menu ? `<div class="course-menu">${["fr", "fa"].map(l => `<button data-act="lang" data-v="${l}" class="${l === L ? "on" : ""}">${flag(l)}${COURSE[l][0]}</button>`).join("")}</div>` : ""}`;
   $("#stats").innerHTML = `<span class="stat fire" title="Day streak">${IMG("fire")}${streak()}</span><span class="stat due" title="Reviews due">${IMG("brain")}${due}</span>`;
-  $("#nav").innerHTML = `<div class="logo">zabaan</div>` + NAV.map(([v, label, ic]) => `<button data-act="view" data-v="${v}" class="${view === v ? "on" : ""}">${IMG(ic)}<span>${label}</span>${v === "review" && due ? `<i class="dot">${due}</i>` : ""}</button>`).join("");
+  $("#nav").innerHTML = `<div class="logo">my language</div>` + NAV.map(([v, label, ic]) => `<button data-act="view" data-v="${v}" class="${view === v ? "on" : ""}">${IMG(ic)}<span>${label}</span>${v === "review" && due ? `<i class="dot">${due}</i>` : ""}</button>`).join("");
   $("#main").innerHTML = ({ learn: vLearn, review: vReview, read: vRead, write: vWrite, progress: vProgress, guide: vGuide })[view]();
   $("#side").innerHTML = view === "learn" && !lesson && !words ? sidePanel() : "";
 }

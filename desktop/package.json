@@ -2,7 +2,7 @@
   "name": "my-language-desktop",
   "private": true,
   "version": "1.0.0",
-  "description": "Mac app shell for Zabaan (Tauri 2). The app itself is ../index.html.",
+  "description": "Mac app shell for My Language (Tauri 2). The app itself is ../index.html.",
   "scripts": {
     "assemble": "node ../native/assemble.mjs www",
     "tauri": "tauri"
