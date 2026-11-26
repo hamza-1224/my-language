@@ -1,0 +1,518 @@
+# Formal connectors
+en l'occurrence | in this case
+a fortiori | all the more so
+au demeurant | moreover, after all
+en définitive | ultimately
+somme toute | all things considered
+à cet égard | in this respect
+de surcroît | moreover
+par ailleurs | furthermore; otherwise
+en dépit de | in spite of
+nonobstant | notwithstanding
+dès lors | from then on; consequently
+partant | consequently (formal)
+qui plus est | what is more
+ne serait-ce que | if only
+pour autant | for all that
+tant bien que mal | somehow or other
+à plus forte raison | all the more reason
+en l'espèce | in this particular case
+à l'instar de | like, following the example of
+au gré de | according to, at the mercy of
+faute de | for lack of
+moyennant | in return for
+hormis | except
+# Academic & intellectual
+la problématique | central question
+la notion | notion
+le concept | concept
+le paradigme | paradigm
+la démarche scientifique | scientific method
+la méthodologie | methodology
+l'échantillon (m) | sample
+la variable | variable
+la corrélation | correlation
+la causalité | causality
+la synthèse | synthesis
+l'analyse (f) | analysis
+le postulat | postulate
+la prémisse | premise
+la déduction | deduction
+l'induction (f) | induction
+la pertinence | relevance
+la cohérence | coherence
+la rigueur | rigour
+l'objectivité (f) | objectivity
+la subjectivité | subjectivity
+l'ambiguïté (f) | ambiguity
+l'interprétation (f) | interpretation
+le commentaire | commentary
+la dissertation | essay
+la bibliographie | bibliography
+la citation | quotation
+la référence | reference
+l'ouvrage (m) | work, book
+le chercheur | researcher
+théoriser | to theorise
+conceptualiser | to conceptualise
+étayer | to support (an argument)
+corroborer | to corroborate
+infirmer | to invalidate
+invalider | to invalidate
+déduire | to deduce
+inférer | to infer
+appréhender | to grasp; to dread
+expliciter | to make explicit
+# Society & politics
+la gouvernance | governance
+le clivage | divide
+la fracture sociale | social divide
+le populisme | populism
+le nationalisme | nationalism
+le communautarisme | communitarianism
+l'ingérence (f) | interference
+le lobbying | lobbying
+la transparence | transparency
+la corruption | corruption
+le scandale | scandal
+la légitimité | legitimacy
+l'hégémonie (f) | hegemony
+le multilatéralisme | multilateralism
+la géopolitique | geopolitics
+le conflit armé | armed conflict
+le cessez-le-feu | ceasefire
+les sanctions (f) | sanctions
+le réfugié | refugee
+le demandeur d'asile | asylum seeker
+l'exil (m) | exile
+la mobilité sociale | social mobility
+l'ascenseur social (m) | social mobility (lift)
+l'État-providence (m) | welfare state
+la décentralisation | decentralisation
+la cohésion | cohesion
+la contestation | protest
+la désobéissance civile | civil disobedience
+légiférer | to legislate
+promulguer | to enact
+abroger | to repeal
+entériner | to ratify
+statuer | to rule (on)
+# Economy & finance
+la conjoncture | economic situation
+la stagnation | stagnation
+la relance | recovery, stimulus
+la dérégulation | deregulation
+la fiscalité | taxation
+l'évasion fiscale (f) | tax evasion
+le paradis fiscal | tax haven
+la spéculation | speculation
+la bulle | bubble
+le krach | crash
+le rendement | yield
+l'actif (m) | asset
+le passif | liabilities
+la trésorerie | cash flow
+le monopole | monopoly
+la délocalisation | offshoring
+la précarisation | casualisation
+le surendettement | over-indebtedness
+le pouvoir de négociation | bargaining power
+la conjoncture mondiale | global economic climate
+# Emotions & character (nuanced)
+l'amertume (f) | bitterness
+l'appréhension (f) | apprehension
+l'ardeur (f) | ardour
+l'aversion (f) | aversion
+la complaisance | complacency; indulgence
+la condescendance | condescension
+la désinvolture | casualness, offhandedness
+l'effronterie (f) | cheek, impudence
+l'exaspération (f) | exasperation
+la fougue | passion, fire
+l'indulgence (f) | leniency
+l'ingratitude (f) | ingratitude
+la lassitude | weariness
+la mélancolie | melancholy
+la mesquinerie | pettiness
+la nonchalance | nonchalance
+la perspicacité | insight
+la pudeur | modesty, reserve
+la ténacité | tenacity
+la vanité | vanity
+acariâtre | cantankerous
+affable | affable
+arrogant | arrogant
+avisé | shrewd
+blasé | jaded
+chaleureux | warm-hearted
+consciencieux | conscientious
+désabusé | disillusioned
+espiègle | mischievous
+exigeant | demanding
+flegmatique | phlegmatic
+hautain | haughty
+impassible | impassive
+irascible | irascible
+loquace | talkative
+méticuleux | meticulous
+obstiné | obstinate
+perspicace | perceptive
+pragmatique | pragmatic
+rancunier | resentful
+sournois | sly
+susceptible | touchy
+taciturne | taciturn
+# Verbs (nuanced)
+s'accommoder de | to put up with
+s'acquitter de | to carry out (a duty)
+alléguer | to allege
+amorcer | to initiate
+anéantir | to annihilate
+s'avérer | to turn out to be
+bafouer | to flout
+cerner | to define, to pin down
+cautionner | to endorse
+chuchoter | to whisper
+cibler | to target
+compromettre | to jeopardise
+concilier | to reconcile
+se consacrer à | to devote oneself to
+contourner | to get round
+déceler | to detect
+déchiffrer | to decipher
+décrocher | to land (a job); to unhook
+déléguer | to delegate
+déplorer | to deplore
+dissimuler | to conceal
+s'écrouler | to collapse
+éclaircir | to clarify
+éluder | to evade
+s'empresser de | to hasten to
+endosser | to take on
+enfreindre | to infringe
+engendrer | to give rise to
+s'ensuivre | to ensue
+entraver | to hinder
+épargner | to spare; to save
+esquiver | to dodge
+s'estomper | to fade
+étoffer | to flesh out
+exacerber | to exacerbate
+s'insurger | to rise up
+interpeller | to challenge, to question
+jalonner | to mark out
+se livrer à | to engage in
+miner | to undermine
+se montrer | to prove to be
+nuire à | to harm
+s'obstiner | to persist
+pallier | to compensate for
+parachever | to complete, to perfect
+peaufiner | to polish, to refine
+perdurer | to endure
+pérenniser | to make permanent
+se prévaloir de | to take advantage of
+privilégier | to favour
+proscrire | to prohibit
+se raviser | to change one's mind
+reléguer | to relegate
+se résigner | to resign oneself
+ressasser | to dwell on
+restreindre | to restrict
+se soucier de | to care about
+souscrire à | to subscribe to
+surgir | to arise suddenly
+susciter | to provoke
+tergiverser | to procrastinate
+trancher | to settle (a question)
+se vanter | to boast
+vaciller | to waver
+# Adjectives (nuanced)
+aléatoire | random
+ambigu | ambiguous
+anodin | harmless, trivial
+arbitraire | arbitrary
+caduc | obsolete, null
+chronique | chronic
+cohérent | coherent
+controversé | controversial
+désuet | outdated
+éphémère | ephemeral
+exhaustif | exhaustive
+fallacieux | misleading
+foncier | fundamental; landed
+fortuit | fortuitous
+illusoire | illusory
+imminent | imminent
+implicite | implicit
+explicite | explicit
+inédit | unprecedented, new
+inéluctable | inescapable
+insidieux | insidious
+latent | latent
+lucide | clear-sighted
+marginal | marginal
+notoire | well-known
+obsolète | obsolete
+omniprésent | omnipresent
+pérenne | lasting
+probant | convincing
+prolixe | wordy
+redondant | redundant
+sommaire | brief, basic
+tangible | tangible
+tributaire | dependent
+vétuste | dilapidated
+virulent | virulent
+# Idioms & expressions
+avoir du pain sur la planche | to have a lot on one's plate
+couper les cheveux en quatre | to split hairs
+être aux anges | to be over the moon
+faire la sourde oreille | to turn a deaf ear
+jeter l'éponge | to throw in the towel
+mettre la charrue avant les bœufs | to put the cart before the horse
+monter sur ses grands chevaux | to get on one's high horse
+ne pas y aller par quatre chemins | to not beat about the bush
+passer l'éponge | to let bygones be bygones
+prendre le taureau par les cornes | to take the bull by the horns
+se mettre le doigt dans l'œil | to be completely wrong
+tourner autour du pot | to beat about the bush
+tirer son épingle du jeu | to get out of a tricky situation
+mettre de l'eau dans son vin | to tone things down
+avoir un poil dans la main | to be lazy
+appeler un chat un chat | to call a spade a spade
+faire d'une pierre deux coups | to kill two birds with one stone
+il n'y a pas de quoi fouetter un chat | it's no big deal
+# Arts, literature & media
+la critique littéraire | literary criticism
+le récit | narrative
+le narrateur | narrator
+le dénouement | ending, resolution
+la péripétie | twist, incident
+la métaphore | metaphor
+l'allégorie (f) | allegory
+l'ironie (f) | irony
+la satire | satire
+le pamphlet | pamphlet
+le chef-d'œuvre | masterpiece
+le courant | movement (artistic)
+l'esthétique (f) | aesthetics
+le mécène | patron (of the arts)
+le vernissage | private view (exhibition)
+la mise en scène | staging, direction
+le long-métrage | feature film
+le court-métrage | short film
+le documentaire | documentary
+la tirade | long speech
+# Law & administration
+la juridiction | jurisdiction
+la jurisprudence | case law
+le recours | appeal; recourse
+le préjudice | harm, damage
+le litige | dispute
+le contentieux | litigation
+la clause | clause
+l'avenant (m) | amendment (contract)
+la procuration | power of attorney
+la démarche administrative | administrative procedure
+le justificatif | supporting document
+la dérogation | exemption
+le formulaire | form
+la réglementation | regulations
+l'infraction (f) | offence
+# Science & health
+la recherche fondamentale | basic research
+l'essai clinique (m) | clinical trial
+le placebo | placebo
+l'effet secondaire (m) | side effect
+le diagnostic | diagnosis
+le pronostic | prognosis
+la pathologie | disease
+la séquelle | after-effect
+la génétique | genetics
+le génome | genome
+la neuroscience | neuroscience
+le dérèglement | disruption
+la modélisation | modelling
+l'astrophysique (f) | astrophysics
+le trou noir | black hole
+# Work & management
+le management | management
+le cahier des charges | specifications
+l'échéance (f) | deadline, due date
+l'échéancier (m) | schedule
+la feuille de route | roadmap
+le livrable | deliverable
+le rendement | productivity, output
+la rentabilité | profitability
+la restructuration | restructuring
+la fusion | merger
+l'acquisition (f) | acquisition
+le partenariat | partnership
+la sous-traitance | subcontracting
+le prestataire | service provider
+le cadre supérieur | senior executive
+la prise de décision | decision-making
+le savoir-être | soft skills
+la polyvalence | versatility
+la reconnaissance | recognition
+l'épanouissement (m) | fulfilment
+déléguer | to delegate
+superviser | to supervise
+optimiser | to optimise
+rationaliser | to rationalise
+# Abstract nouns
+l'aboutissement (m) | outcome, culmination
+l'acuité (f) | acuteness
+l'aléa (m) | hazard, risk
+l'aspiration (f) | aspiration
+l'assise (f) | foundation
+la clairvoyance | far-sightedness
+la connivence | complicity
+la convoitise | greed, envy
+le cheminement | progression, path
+le décalage | gap, mismatch
+la dérive | drift
+le désarroi | dismay
+la duperie | deception
+l'effervescence (f) | excitement, ferment
+l'emprise (f) | hold, grip
+l'engouement (m) | craze
+l'enjeu majeur (m) | key issue
+l'entrave (f) | hindrance
+l'envergure (f) | scale, calibre
+l'équité (f) | fairness
+l'exigence (f) | demand, requirement
+la faculté | ability; faculty
+la fatalité | fate
+la ferveur | fervour
+le gaspillage | waste
+la hantise | dread
+l'impasse (f) | dead end
+l'imposture (f) | deception
+l'inertie (f) | inertia
+l'insouciance (f) | carefreeness
+l'instauration (f) | establishment
+la lacune | gap (in knowledge)
+la lucidité | clear-sightedness
+la mainmise | control, grip
+le malaise | unease
+la mansuétude | leniency
+la mouvance | movement, sphere
+la pérennité | durability
+la prépondérance | predominance
+le prestige | prestige
+la quête | quest
+la recrudescence | resurgence
+le revirement | U-turn
+la sollicitude | concern, care
+la tergiversation | hesitation
+la teneur | content
+la tutelle | supervision
+la velléité | vague desire
+la vigilance | vigilance
+# More verbs
+abonder | to abound
+s'abstenir | to abstain
+accentuer | to accentuate
+s'accroître | to increase
+s'acharner | to persist relentlessly
+adhérer | to adhere; to join
+affecter | to affect
+s'affranchir de | to free oneself from
+amoindrir | to diminish
+s'apparenter à | to resemble
+arborer | to sport, to display
+astreindre | to compel
+attiser | to stir up
+s'atténuer | to subside
+bannir | to ban
+brandir | to brandish
+calquer | to copy
+chérir | to cherish
+circonscrire | to contain
+conférer | to confer
+consolider | to consolidate
+contrecarrer | to thwart
+corroder | to corrode
+décerner | to award
+déclinant | declining
+dédaigner | to disdain
+démanteler | to dismantle
+dénigrer | to denigrate
+dépeindre | to depict
+déroger | to depart from
+dissiper | to dispel
+divulguer | to disclose
+s'efforcer | to endeavour
+élucider | to elucidate
+émaner | to emanate
+empiéter | to encroach
+s'enliser | to get bogged down
+s'enquérir | to inquire
+entériner | to confirm
+s'évertuer | to strive
+exalter | to exalt
+fustiger | to castigate
+galvauder | to overuse, to cheapen
+s'immiscer | to interfere
+incomber à | to fall to (a duty)
+s'insinuer | to creep in
+lésiner | to skimp
+s'offusquer | to take offence
+outrepasser | to exceed (rights)
+parfaire | to perfect
+pâtir de | to suffer from
+préconiser | to recommend
+présager | to foretell
+se prêter à | to lend itself to
+proliférer | to proliferate
+raviver | to revive
+se rebiffer | to rebel
+récuser | to challenge, to reject
+se remémorer | to recall
+réprimer | to suppress
+résorber | to reduce, to absorb
+revendiquer | to claim
+scruter | to scrutinise
+sévir | to rage; to crack down
+stigmatiser | to stigmatise
+subsister | to remain
+supplanter | to supplant
+surenchérir | to outbid
+taire | to keep quiet about
+tempérer | to temper
+# Register & informal French
+bosser | to work (informal)
+le boulot | job, work (informal)
+la bagnole | car (informal)
+le fric | money (informal)
+la thune | money (slang)
+le mec | guy (informal)
+la nana | girl (informal)
+le pote | mate (informal)
+le gamin | kid (informal)
+bouffer | to eat (informal)
+crevé | exhausted (informal)
+nul | rubbish, useless
+génial | brilliant
+chouette | great, nice
+ouf | crazy (slang)
+kiffer | to love, to like (slang)
+galérer | to struggle (informal)
+la galère | hassle, ordeal
+flipper | to freak out
+se planter | to mess up
+rigoler | to laugh
+piger | to get, to understand
+la flemme | laziness
+truc | thing, thingy
+machin | thingamajig
+c'est pas grave | never mind
+t'inquiète | don't worry
+grave | totally (slang)
+trop | really, so (informal)
+carrément | totally
+genre | like (filler)
+bref | anyway
+du coup | so (filler)

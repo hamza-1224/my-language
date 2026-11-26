@@ -1,11 +1,11 @@
 flowchart LR
   subgraph DEV["Your iPhone or Mac"]
     direction TB
-    UI["Lessons · Review · Read · Write"]
+    UI["Learn · Practice · Read · Progress"]
     SRS["Spaced repetition<br/>each word returns after 1, 3, 6, 15, 40… days"]
     CACHE["Local copy of your progress<br/>saved on the device"]
     OUT["Outbox<br/>changes waiting to upload"]
-    UI -->|"you answer, read or write"| SRS
+    UI -->|"you answer or mark as read"| SRS
     SRS --> CACHE
     CACHE -->|"queued"| OUT
   end
@@ -18,10 +18,14 @@ flowchart LR
   end
   subgraph GH["GitHub"]
     direction TB
-    ACT["Action every 3 hours<br/>reads French and Persian news feeds"]
+    ACT["Action every Monday<br/>picks 6 news articles per level, B1 to C2"]
     FEEDS["feeds branch<br/>fr.json · fa.json"]
+    VOICE["Action when Persian content changes<br/>records it with a Microsoft neural voice"]
+    PAGES["GitHub Pages<br/>the app and audio/fa/*.mp3"]
     ACT --> FEEDS
+    VOICE --> PAGES
   end
   OUT -->|"upload when online"| AUTH
   RT -->|"your other devices update"| CACHE
-  FEEDS -->|"today's articles"| UI
+  FEEDS -->|"this week's articles"| UI
+  PAGES -->|"Persian pronunciation"| UI

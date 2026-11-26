@@ -11,7 +11,7 @@ mkdirSync(www + "vendor", { recursive: true });
 const read = p => readFileSync(root + p, "utf8");
 let html = read("index.html");
 html = html.replace(/<link rel="stylesheet" href="([^"]+)">/g, (_, p) => "<style>\n" + read(p) + "\n</style>");
-html = html.replace(/<script src="((?:data\/)?[a-z]+\.js)"><\/script>/g, (tag, p) => p === "config.js" ? tag : "<script>\n" + read(p).replace(/<\/script/gi, "<\\/script") + "\n</script>");
+html = html.replace(/<script src="((?:data\/)?[a-z-]+\.js)"><\/script>/g, (tag, p) => p === "config.js" ? tag : "<script>\n" + read(p).replace(/<\/script/gi, "<\\/script") + "\n</script>");
 const v = (/APP_VERSION = "([^"]+)"/.exec(html) || [])[1];
 if (!v) throw new Error("APP_VERSION not found");
 writeFileSync(www + "app.html", html);

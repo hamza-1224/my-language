@@ -1,0 +1,528 @@
+# Literary & elevated vocabulary
+l'aïeul (m) | ancestor
+l'allégresse (f) | joy, elation
+l'apanage (m) | prerogative
+l'aphorisme (m) | aphorism
+l'aube (f) | dawn
+l'azur (m) | azure, sky
+la béatitude | bliss
+la bienséance | propriety
+le crépuscule | twilight
+la déchéance | decline, downfall
+le dessein | design, intention
+la diatribe | diatribe
+l'ébauche (f) | sketch, outline
+l'égarement (m) | lapse, aberration
+l'élégie (f) | elegy
+l'émoi (m) | excitement, agitation
+l'épopée (f) | epic
+l'errance (f) | wandering
+la fange | mire, mud
+le faste | splendour, pomp
+la félicité | bliss
+la flagornerie | flattery
+la fugacité | fleetingness
+la gageure | challenge, impossible bet
+la grandiloquence | grandiloquence
+l'hécatombe (f) | slaughter, massacre
+l'ivresse (f) | intoxication, rapture
+la langueur | languor
+la liesse | jubilation
+la lubie | whim
+le marasme | stagnation, slump
+la mièvrerie | soppiness
+la morgue | haughtiness; mortuary
+l'opprobre (m) | disgrace
+la pénombre | half-light
+la pérégrination | peregrination
+la prodigalité | extravagance
+la quiétude | tranquillity
+le rivage | shore
+la sérénité | serenity
+le simulacre | sham
+la splendeur | splendour
+la torpeur | torpor
+la turpitude | depravity
+la verve | verve
+la vacuité | emptiness
+l'ivraie (f) | tares, weeds
+le zénith | zenith
+# Elevated verbs
+abhorrer | to abhor
+abjurer | to abjure
+acquiescer | to acquiesce
+s'adonner à | to devote oneself to
+aliéner | to alienate
+s'amender | to mend one's ways
+apostropher | to accost
+s'arroger | to claim (unjustly)
+atermoyer | to procrastinate
+blêmir | to turn pale
+choir | to fall (literary)
+se complaire | to delight in
+conspuer | to boo
+courroucer | to anger
+déchoir | to fall from grace
+se délecter | to delight
+discourir | to hold forth
+s'éprendre de | to fall for
+s'épancher | to pour one's heart out
+s'escrimer | to struggle
+s'esclaffer | to burst out laughing
+s'étioler | to wither
+s'évanouir | to faint; to vanish
+exhorter | to exhort
+s'extasier | to go into raptures
+flétrir | to wither; to condemn
+fourvoyer | to mislead
+honnir | to scorn
+s'invétérer | to become ingrained
+mander | to summon
+se morfondre | to mope
+obvier | to obviate
+pérorer | to hold forth
+se pâmer | to swoon
+proférer | to utter
+rasséréner | to calm, to reassure
+se repaître | to feast on
+la résipiscence | repentance
+sermonner | to lecture
+sourdre | to well up
+subjuguer | to captivate
+supputer | to calculate, to ponder
+tancer | to scold
+vitupérer | to rail against
+# Literary tenses & forms
+il fut | he was (passé simple)
+ils firent | they did (passé simple)
+elle vint | she came (passé simple)
+nous eûmes | we had (passé simple)
+qu'il fût | that he were (imperfect subjunctive)
+qu'il eût | that he had (imperfect subjunctive)
+eût-il su | had he known
+fût-ce | be it, even if it were
+n'eût été | had it not been for
+ne … guère | hardly
+ne … point | not at all (literary)
+naguère | not long ago
+jadis | formerly, long ago
+céans | here, in this house
+nonobstant | notwithstanding
+d'aucuns | some (people)
+quiconque | whoever
+maint | many a
+nul | no one, none (literary)
+# Philosophy & ideas
+l'ontologie (f) | ontology
+l'épistémologie (f) | epistemology
+la métaphysique | metaphysics
+l'éthique (f) | ethics
+la morale | morality
+l'existentialisme (m) | existentialism
+le libre arbitre | free will
+le déterminisme | determinism
+la conscience | consciousness; conscience
+l'aliénation (f) | alienation
+l'absurde (m) | the absurd
+la transcendance | transcendence
+l'immanence (f) | immanence
+la dialectique | dialectic
+le relativisme | relativism
+l'humanisme (m) | humanism
+les Lumières (f) | the Enlightenment
+le contrat social | social contract
+l'utopie (f) | utopia
+la dystopie | dystopia
+le nihilisme | nihilism
+le scepticisme | scepticism
+le stoïcisme | stoicism
+la vertu | virtue
+le vice | vice
+la sagesse | wisdom
+la finitude | finitude
+le néant | nothingness
+l'essence (f) | essence
+l'altérité (f) | otherness
+# Rhetoric & style
+la rhétorique | rhetoric
+l'éloquence (f) | eloquence
+l'oxymore (m) | oxymoron
+l'euphémisme (m) | euphemism
+la litote | understatement
+l'hyperbole (f) | hyperbole
+l'anaphore (f) | anaphora
+la périphrase | periphrasis
+l'antithèse (f) | antithesis
+le chiasme | chiasmus
+la prosopopée | prosopopoeia
+le registre | register
+le pastiche | pastiche
+la parodie | parody
+l'alexandrin (m) | alexandrine (12-syllable line)
+la rime | rhyme
+la strophe | stanza
+le sonnet | sonnet
+la fable | fable
+la maxime | maxim
+le lyrisme | lyricism
+le pathos | pathos
+la préciosité | affectation
+la concision | concision
+la sobriété | sobriety, restraint
+# Subtle adjectives
+abscons | abstruse
+acerbe | acerbic
+amène | amiable
+amphigourique | convoluted
+âpre | harsh, bitter
+captieux | specious
+chimérique | fanciful
+compassé | stiff, formal
+contrit | contrite
+dérisoire | derisory
+diaphane | diaphanous
+dithyrambique | eulogistic, gushing
+évanescent | evanescent
+fastidieux | tedious
+fat | conceited
+fruste | crude, unpolished
+grandiloquent | grandiloquent
+hiératique | hieratic, solemn
+idoine | appropriate
+ignominieux | ignominious
+immarcescible | unfading
+impavide | fearless
+inextricable | inextricable
+insipide | insipid
+lapidaire | terse, pithy
+laconique | laconic
+lénifiant | soothing
+oiseux | pointless
+ombrageux | touchy, skittish
+opiniâtre | stubborn, dogged
+patelin | smooth-talking
+péremptoire | peremptory
+pernicieux | pernicious
+pusillanime | faint-hearted
+sibyllin | cryptic
+sémillant | lively, sparkling
+spécieux | specious
+subreptice | surreptitious
+suranné | old-fashioned
+truculent | colourful, earthy
+véhément | vehement
+vétilleux | fussy
+# Sayings & proverbs
+l'habit ne fait pas le moine | don't judge a book by its cover
+qui vivra verra | time will tell
+petit à petit, l'oiseau fait son nid | little by little
+il ne faut pas vendre la peau de l'ours avant de l'avoir tué | don't count your chickens
+la nuit porte conseil | sleep on it
+mieux vaut tard que jamais | better late than never
+qui ne risque rien n'a rien | nothing ventured, nothing gained
+à bon chat, bon rat | tit for tat
+chacun voit midi à sa porte | everyone sees things their own way
+les chiens aboient, la caravane passe | let them talk
+on ne fait pas d'omelette sans casser des œufs | you can't make an omelette without breaking eggs
+tout vient à point à qui sait attendre | good things come to those who wait
+il faut battre le fer pendant qu'il est chaud | strike while the iron is hot
+pierre qui roule n'amasse pas mousse | a rolling stone gathers no moss
+# Idiomatic expressions
+avoir maille à partir avec | to have a bone to pick with
+battre la campagne | to ramble, to rave
+bayer aux corneilles | to stand gaping
+brûler la chandelle par les deux bouts | to burn the candle at both ends
+chercher midi à quatorze heures | to overcomplicate things
+connaître la musique | to know the score
+courir sur le haricot | to get on one's nerves
+crier sur les toits | to shout from the rooftops
+donner sa langue au chat | to give up guessing
+en mettre sa main au feu | to stake one's life on it
+être au pied du mur | to have one's back to the wall
+être de mèche | to be in cahoots
+faire chou blanc | to draw a blank
+faire contre mauvaise fortune bon cœur | to make the best of a bad job
+faire long feu | to fizzle out
+il y a anguille sous roche | something's fishy
+la moutarde lui monte au nez | he's losing his temper
+mettre la puce à l'oreille | to arouse suspicion
+ne pas être sorti de l'auberge | to not be out of the woods
+noyer le poisson | to muddy the waters
+payer rubis sur l'ongle | to pay on the nail
+porter aux nues | to praise to the skies
+prendre des vessies pour des lanternes | to be easily fooled
+remettre aux calendes grecques | to postpone indefinitely
+renvoyer l'ascenseur | to return the favour
+rester sur sa faim | to be left wanting more
+se faire du mauvais sang | to worry oneself sick
+se mettre martel en tête | to fret
+se noyer dans un verre d'eau | to make a mountain out of a molehill
+tenir le haut du pavé | to be top dog
+tirer les marrons du feu | to be the cat's paw
+tomber des nues | to be flabbergasted
+vendre la mèche | to give the game away
+être soupe au lait | to be quick-tempered
+avoir l'esprit de l'escalier | to think of a reply too late
+c'est du pareil au même | it's six of one and half a dozen of the other
+faire flèche de tout bois | to use every means available
+mener quelqu'un en bateau | to lead someone on
+ménager la chèvre et le chou | to sit on the fence
+peigner la girafe | to do pointless work
+# Faux amis (false friends)
+actuellement | currently (not "actually")
+éventuellement | possibly (not "eventually")
+la librairie | bookshop (not "library")
+sensible | sensitive (not "sensible")
+la lecture | reading (not "lecture")
+la conférence | lecture (not "conference" only)
+le délai | deadline, time allowed (not "delay")
+assister à | to attend (not "to assist")
+attendre | to wait (not "to attend")
+la monnaie | change, currency (not "money")
+rester | to stay (not "to rest")
+la déception | disappointment (not "deception")
+blesser | to injure (not "to bless")
+le préservatif | condom (not "preservative")
+la journée | day (not "journey")
+le raisin | grape (not "raisin")
+large | wide (not "large")
+la location | rental (not "location")
+le car | coach (not "car")
+le crayon | pencil (not "crayon")
+# Journalism & public life
+l'éditorialiste (m) | leader writer
+le chroniqueur | columnist
+la tribune | op-ed; platform
+la dépêche | news dispatch
+le scoop | scoop
+la une | front page
+le démenti | denial
+la langue de bois | waffle, political jargon
+la petite phrase | soundbite
+le bras de fer | standoff
+la cohabitation | cohabitation (president and PM of different parties)
+le remaniement | reshuffle
+la motion de censure | no-confidence motion
+le 49.3 | French constitutional article to pass a law without a vote
+l'hémicycle (m) | parliamentary chamber
+le quinquennat | five-year presidential term
+l'Élysée (m) | French presidency
+Matignon | Prime Minister's office
+le Quai d'Orsay | French foreign ministry
+Bercy | French finance ministry
+la rentrée politique | return of political season
+les gilets jaunes (m) | yellow vests movement
+# Law & institutions (advanced)
+l'ayant droit (m) | beneficiary
+le non-lieu | dismissal of charges
+la relaxe | acquittal
+la garde à vue | police custody
+le casier judiciaire | criminal record
+la mise en examen | formal investigation
+le huis clos | in camera
+la prescription | statute of limitations
+la présomption d'innocence | presumption of innocence
+le Conseil d'État | Council of State
+le Conseil constitutionnel | Constitutional Council
+la Cour de cassation | Court of Cassation
+l'huissier (m) | bailiff
+le notaire | notary
+le greffier | court clerk
+# Nature (precise terms)
+le bocage | hedged farmland
+la lande | moor, heath
+le marécage | marsh
+l'estuaire (m) | estuary
+la falaise | cliff
+le ruisseau | stream
+le torrent | mountain stream
+la clairière | clearing
+le sous-bois | undergrowth
+la cime | summit, treetop
+le versant | slope
+la crête | ridge; crest
+l'embrun (m) | sea spray
+le ressac | backwash
+la houle | swell
+l'écume (f) | foam
+la rosée | dew
+le givre | frost
+la bruine | drizzle
+la bourrasque | gust
+le bourgeon | bud
+la sève | sap
+le feuillage | foliage
+la ronce | bramble
+le roseau | reed
+la luciole | firefly
+le hibou | owl
+l'hirondelle (f) | swallow
+le rossignol | nightingale
+le sanglier | wild boar
+# Verlan & slang
+meuf | woman (verlan of femme)
+keum | guy (verlan of mec)
+relou | annoying (verlan of lourd)
+chelou | weird (verlan of louche)
+vénère | angry (verlan of énervé)
+ouf | crazy (verlan of fou)
+téma | look (verlan of mater)
+zarbi | weird (verlan of bizarre)
+laisse tomber | forget it
+c'est chaud | it's tricky
+ça craint | that's bad
+avoir la dalle | to be starving
+se casser | to leave (slang)
+la daube | rubbish
+le pognon | money (slang)
+le taf | job (slang)
+le clope | cigarette
+la teuf | party (verlan of fête)
+le reuf | brother (verlan of frère)
+la reum | mother (verlan of mère)
+# Francophone variants
+septante | seventy (Belgium, Switzerland)
+nonante | ninety (Belgium, Switzerland)
+huitante | eighty (Switzerland)
+le déjeuner | breakfast (Belgium, Québec)
+le dîner | lunch (Belgium, Québec)
+le souper | dinner (Belgium, Québec)
+le char | car (Québec)
+le chum | boyfriend, friend (Québec)
+la blonde | girlfriend (Québec)
+magasiner | to go shopping (Québec)
+le courriel | email (Québec, official)
+la fin de semaine | weekend (Québec)
+une fois | (filler) (Belgium)
+le GSM | mobile phone (Belgium)
+la drache | downpour (Belgium)
+# Economics & sociology (advanced)
+la paupérisation | impoverishment
+la gentrification | gentrification
+la marchandisation | commodification
+l'atomisation (f) | fragmentation
+la méritocratie | meritocracy
+le capital culturel | cultural capital
+la reproduction sociale | social reproduction
+l'habitus (m) | habitus
+la sociabilité | sociability
+l'anomie (f) | anomie
+le désenchantement | disenchantment
+la financiarisation | financialisation
+la décroissance | degrowth
+le protectionnisme | protectionism
+le libre-échange | free trade
+l'austérité (f) | austerity
+la planification | planning
+la régulation | regulation
+le keynésianisme | Keynesianism
+le néolibéralisme | neoliberalism
+# Misc. advanced verbs
+amadouer | to coax
+asséner | to deal (a blow); to state forcefully
+badiner | to jest
+cabotiner | to show off
+cajoler | to cuddle; to coax
+chicaner | to quibble
+claironner | to trumpet
+se cramponner | to cling
+décontenancer | to disconcert
+dégoiser | to spout
+se démener | to exert oneself
+ébahir | to astound
+s'égosiller | to shout oneself hoarse
+s'emberlificoter | to get tangled up
+s'enorgueillir | to pride oneself
+s'époumoner | to shout oneself hoarse
+estourbir | to knock out
+fanfaronner | to brag
+frémir | to shudder
+fulminer | to fulminate
+goguenard | mocking (adj.)
+lambiner | to dawdle
+louvoyer | to manoeuvre
+maugréer | to grumble
+minauder | to simper
+moucharder | to inform on
+musarder | to dawdle
+ourdir | to hatch (a plot)
+papillonner | to flit about
+# History & civilisation
+l'Ancien Régime (m) | pre-1789 France
+la Révolution française | French Revolution
+la prise de la Bastille | storming of the Bastille
+la Terreur | the Terror
+l'Empire (m) | the Empire (Napoleon)
+la Restauration | the Restoration
+la Commune | the Paris Commune
+la Belle Époque | the Belle Époque
+l'Occupation (f) | the Occupation (1940–44)
+la Résistance | the Resistance
+la Libération | the Liberation
+la décolonisation | decolonisation
+Mai 68 | May 1968 protests
+la Ve République | the Fifth Republic
+la francophonie | French-speaking world
+l'Académie française (f) | the French Academy
+le siècle des Lumières | the Age of Enlightenment
+la Renaissance | the Renaissance
+le Moyen Âge | the Middle Ages
+le roi Soleil | the Sun King (Louis XIV)
+# Arts (advanced)
+le clair-obscur | chiaroscuro
+l'impressionnisme (m) | impressionism
+le surréalisme | surrealism
+le cubisme | cubism
+la Nouvelle Vague | French New Wave (cinema)
+le nouveau roman | the New Novel
+l'existentialiste (m) | existentialist
+la chanson à texte | literary song
+le cinéma d'auteur | auteur cinema
+le septième art | cinema (the seventh art)
+la bande dessinée | comic book
+le neuvième art | comics (the ninth art)
+l'avant-garde (f) | avant-garde
+le mécénat | patronage
+la pièce de théâtre | play
+le metteur en scène | stage director
+la tragédie | tragedy
+la comédie | comedy
+le vaudeville | farce
+le pastiche | pastiche
+# Emotion & nuance (literary)
+l'affliction (f) | affliction
+l'âpreté (f) | harshness
+la componction | compunction
+la contrition | contrition
+l'ennui (m) | boredom; trouble
+l'exaltation (f) | exaltation
+la fébrilité | feverishness
+la langueur | languor
+la morosité | gloom
+le spleen | melancholy
+la volupté | sensual pleasure
+l'acrimonie (f) | acrimony
+la bonhomie | good-naturedness
+la goguenardise | mockery
+la morgue | arrogance
+la pusillanimité | faint-heartedness
+la superbe | arrogance, haughtiness
+la candeur | ingenuousness
+l'ingénuité (f) | naivety
+la verdeur | vigour; crudeness
+# Connectors (literary)
+au demeurant | after all
+de prime abord | at first sight
+à tout prendre | all in all
+tout compte fait | all things considered
+qui plus est | moreover
+à l'aune de | by the yardstick of
+sous couvert de | under the guise of
+à l'encontre de | contrary to
+au détour de | in the course of
+à la faveur de | thanks to, under cover of
+au prix de | at the cost of
+en vertu de | by virtue of
+sous l'égide de | under the auspices of
+en tout état de cause | in any event
+de facto | de facto

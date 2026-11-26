@@ -1,12 +1,12 @@
-# Refreshes the articles on the Read tab every 3 hours.
+# Picks this week's B1–C2 articles for the Read tab, every Monday morning.
 # Writes fr.json and fa.json to the `feeds` branch as a single commit (replaced each time,
 # so the main branch's history stays clean). The app reads them from raw.githubusercontent.com.
-name: Refresh news feeds
+name: Weekly reading list
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 */3 * * *"
+    - cron: "17 2 * * 1"
   push:
     branches: [main]
     paths: ["scripts/fetch_feeds.py", ".github/workflows/feeds.yml"]

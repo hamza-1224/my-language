@@ -4,3 +4,4 @@ node_modules/
 progress.json
 native/www/
 desktop/www/
+__pycache__/

@@ -2,12 +2,12 @@
 // Pages, scripts and lessons: network first so updates arrive, but after 4 seconds on a weak
 // connection (or if the network fails) the saved copy is used instead.
 // The database library, fonts and icons never change between releases, so they load from the device.
-const CACHE = "my-language-1.1.0";
-const SHELL = ["./", "index.html", "style.css", "sync.js", "app.js", "data/french.js", "data/persian.js", "config.js", "vendor/supabase.js",
+const CACHE = "my-language-1.2.0";
+const SHELL = ["./", "index.html", "style.css", "sync.js", "app.js", "data/french.js", "data/persian.js", "data/frgrammar.js", "data/fagrammar.js", "data/frvocab.js", "data/favocab.js", "data/drills.js", "data/reading.js", "config.js", "vendor/supabase.js",
   "fonts/NotoNastaliqUrdu.ttf", "fonts/nunito-latin.woff2", "fonts/nunito-latin-ext.woff2",
   "img/airplane.png", "img/books.png", "img/brain.png", "img/bulb.png", "img/bullseye.png", "img/calendar.png", "img/chart.png", "img/check.png", "img/crown.png", "img/fire.png", "img/flags/fr.svg", "img/flags/ir.svg", "img/food.png", "img/gear.png", "img/gem.png", "img/globe.png", "img/graduation.png", "img/house.png", "img/lock.png", "img/map.png", "img/muscle.png", "img/newspaper.png", "img/open-book.png", "img/party.png", "img/pencil.png", "img/scroll.png", "img/sparkles.png", "img/speaker.png", "img/star.png", "img/tea.png", "img/trophy.png", "img/wave.png",
   "manifest.webmanifest", "icon-192.png", "icon-512.png", "apple-touch-icon.png"];
-const STATIC = /\/(vendor\/supabase\.js|fonts\/[^/]+|img\/.+|icon-192\.png|icon-512\.png|apple-touch-icon\.png)$/;
+const STATIC = /\/(vendor\/supabase\.js|fonts\/[^/]+|img\/.+|audio\/.+|icon-192\.png|icon-512\.png|apple-touch-icon\.png)$/;
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));

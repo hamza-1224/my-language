@@ -5,7 +5,7 @@
    Every key in localStorage starts with "zb." because the site shares its origin with
    My Budget and Kanban on github.io. */
 (function () {
-  const APP_VERSION = "1.1.0";
+  const APP_VERSION = "1.2.0";
   const REMOTE = "https://hamza-1224.github.io/my-language/";
   const FEEDS = "https://raw.githubusercontent.com/hamza-1224/my-language/feeds/";
   const NATIVE = location.protocol === "capacitor:" || location.protocol === "tauri:" || !!window.ZB_NATIVE_TEST;
@@ -36,6 +36,7 @@
     const uniq = (x, y, key) => { const seen = new Set(), r = []; for (const it of (y || []).concat(x || [])) { const k = key(it); if (!seen.has(k)) { seen.add(k); r.push(it); } } return r; };
     out.read = uniq(a.read, b.read, x => x);
     out.custom = uniq(a.custom, b.custom, c => c.lvl + "|" + (c.v && c.v[0]));
+    out.saved = uniq(a.saved, b.saved, s => s.id || s.link).sort((x, y) => (x.d || 0) - (y.d || 0));
     out.writing = uniq(a.writing, b.writing, w => w.d + "|" + w.text).sort((x, y) => x.d - y.d);
     const ia = a.intro || { d: 0, n: 0 }, ib = b.intro || { d: 0, n: 0 };
     out.intro = ia.d !== ib.d ? (ia.d > ib.d ? ia : ib) : { d: ia.d, n: Math.max(ia.n, ib.n) };
@@ -215,7 +216,7 @@
     let html = await get("index.html");
     const css = html.match(/<link rel="stylesheet" href="([^"]+)">/g) || [];
     for (const tag of css) { const p = tag.match(/href="([^"]+)"/)[1]; const code = await get(p); html = html.replace(tag, () => "<style>\n" + code + "\n</style>"); }
-    const js = html.match(/<script src="((?:data\/)?[a-z]+\.js)"><\/script>/g) || [];
+    const js = html.match(/<script src="((?:data\/)?[a-z-]+\.js)"><\/script>/g) || [];
     for (const tag of js) { const p = tag.match(/src="([^"]+)"/)[1]; if (p === "config.js") continue; const code = (await get(p)).replace(/<\/script/gi, "<\\/script"); html = html.replace(tag, () => "<script>\n" + code + "\n</script>"); }
     return html;
   }
@@ -236,12 +237,12 @@
     } catch (e) {}
   }
 
-  /* ---------- news feeds: refreshed every few hours by a GitHub Action on the "feeds" branch ---------- */
+  /* ---------- weekly reading list for B1–C2, picked by a GitHub Action on the "feeds" branch ---------- */
   async function feed(lang) {
     try {
       const r = await fetch(FEEDS + lang + ".json?t=" + Math.floor(Date.now() / 6e5), { cache: "no-store" }); if (!r.ok) throw 0;
-      const j = await r.json(); LS.set("zb.feed." + lang, j); return j.items || [];
-    } catch (e) { const c = LS.get("zb.feed." + lang); return (c && c.items) || []; }
+      const j = await r.json(); LS.set("zb.feed." + lang, j); return j;
+    } catch (e) { return LS.get("zb.feed." + lang) || {}; } // {week, levels: {B1: [...], …}}
   }
 
   // In the Mac app, web links open in the browser.
@@ -263,5 +264,5 @@
     sb.auth.onAuthStateChange((ev, s) => { if (s && !store && !demo && (ev === "SIGNED_IN" || ev === "INITIAL_SESSION")) begin(makeStore(sb, s.user.id), s.user); if (ev === "SIGNED_OUT" && store && !demo) location.reload(); });
   }
 
-  window.ZB = { init, save, feed, toast, mergeLang, APP_VERSION, inlinePage };
+  window.ZB = { init, save, feed, toast, mergeLang, APP_VERSION, inlinePage, base: NATIVE ? REMOTE : "" };
 })();

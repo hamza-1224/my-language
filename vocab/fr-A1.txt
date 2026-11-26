@@ -1,0 +1,555 @@
+# Greetings & basics
+bonjour | hello, good morning
+bonsoir | good evening
+salut | hi, bye (informal)
+au revoir | goodbye
+à bientôt | see you soon
+à demain | see you tomorrow
+bonne nuit | good night
+merci | thank you
+merci beaucoup | thank you very much
+de rien | you're welcome
+s'il vous plaît | please (formal)
+s'il te plaît | please (informal)
+excusez-moi | excuse me
+pardon | sorry, pardon
+oui | yes
+non | no
+d'accord | okay, agreed
+bien sûr | of course
+peut-être | maybe
+ça va | it's going fine; how's it going?
+comment ça va ? | how are you?
+très bien | very well
+enchanté | nice to meet you
+bienvenue | welcome
+je m'appelle | my name is
+madame | madam, Mrs
+monsieur | sir, Mr
+mademoiselle | miss
+# People & pronouns
+je | I
+tu | you (informal)
+il | he, it
+elle | she, it
+on | we, one (informal)
+nous | we
+vous | you (formal / plural)
+ils | they (masc.)
+elles | they (fem.)
+moi | me
+toi | you (stressed)
+la personne | person
+l'homme (m) | man
+la femme | woman, wife
+le garçon | boy
+la fille | girl, daughter
+l'enfant (m) | child
+le bébé | baby
+l'ami (m) | friend (male)
+l'amie (f) | friend (female)
+le copain | friend, boyfriend
+la copine | friend, girlfriend
+le voisin | neighbour
+les gens (m) | people
+# Family
+la famille | family
+le père | father
+la mère | mother
+les parents (m) | parents
+le frère | brother
+la sœur | sister
+le fils | son
+le mari | husband
+le grand-père | grandfather
+la grand-mère | grandmother
+l'oncle (m) | uncle
+la tante | aunt
+le cousin | cousin (male)
+la cousine | cousin (female)
+le papa | dad
+la maman | mum
+# Numbers
+zéro | zero
+un | one
+deux | two
+trois | three
+quatre | four
+cinq | five
+six | six
+sept | seven
+huit | eight
+neuf | nine
+dix | ten
+onze | eleven
+douze | twelve
+treize | thirteen
+quatorze | fourteen
+quinze | fifteen
+seize | sixteen
+vingt | twenty
+trente | thirty
+quarante | forty
+cinquante | fifty
+soixante | sixty
+soixante-dix | seventy
+quatre-vingts | eighty
+quatre-vingt-dix | ninety
+cent | hundred
+mille | thousand
+premier | first
+deuxième | second
+dernier | last
+# Time & days
+le jour | day
+la semaine | week
+le mois | month
+l'an (m) | year
+l'année (f) | year (duration)
+aujourd'hui | today
+demain | tomorrow
+hier | yesterday
+maintenant | now
+le matin | morning
+l'après-midi (m) | afternoon
+le soir | evening
+la nuit | night
+l'heure (f) | hour, time (o'clock)
+la minute | minute
+lundi | Monday
+mardi | Tuesday
+mercredi | Wednesday
+jeudi | Thursday
+vendredi | Friday
+samedi | Saturday
+dimanche | Sunday
+le week-end | weekend
+toujours | always
+souvent | often
+parfois | sometimes
+jamais | never
+tôt | early
+tard | late
+avant | before
+après | after
+déjà | already
+encore | again, still
+bientôt | soon
+# Months & seasons
+janvier | January
+février | February
+mars | March
+avril | April
+mai | May
+juin | June
+juillet | July
+août | August
+septembre | September
+octobre | October
+novembre | November
+décembre | December
+le printemps | spring
+l'été (m) | summer
+l'automne (m) | autumn
+l'hiver (m) | winter
+# Home
+la maison | house
+l'appartement (m) | flat, apartment
+la chambre | bedroom
+la cuisine | kitchen; cooking
+la salle de bains | bathroom
+le salon | living room
+les toilettes (f) | toilet
+la porte | door
+la fenêtre | window
+le lit | bed
+la table | table
+la chaise | chair
+le canapé | sofa
+la clé | key
+la télé | TV
+le téléphone | phone
+l'ordinateur (m) | computer
+la lampe | lamp
+le jardin | garden
+l'escalier (m) | stairs
+# Food & drink
+la nourriture | food
+le pain | bread
+l'eau (f) | water
+le lait | milk
+le café | coffee; café
+le thé | tea
+le jus | juice
+le vin | wine
+la bière | beer
+le sucre | sugar
+le sel | salt
+le beurre | butter
+le fromage | cheese
+l'œuf (m) | egg
+la viande | meat
+le poulet | chicken
+le poisson | fish
+le riz | rice
+les pâtes (f) | pasta
+la soupe | soup
+la salade | salad
+le légume | vegetable
+le fruit | fruit
+la pomme | apple
+la banane | banana
+l'orange (f) | orange
+la tomate | tomato
+la pomme de terre | potato
+les frites (f) | chips, fries
+le gâteau | cake
+le chocolat | chocolate
+le petit-déjeuner | breakfast
+le déjeuner | lunch
+le dîner | dinner
+le repas | meal
+le restaurant | restaurant
+l'addition (f) | the bill
+le menu | menu
+# Body & health
+le corps | body
+la tête | head
+les yeux (m) | eyes
+l'œil (m) | eye
+le nez | nose
+la bouche | mouth
+l'oreille (f) | ear
+les cheveux (m) | hair
+la main | hand
+le bras | arm
+la jambe | leg
+le pied | foot
+le dos | back
+le ventre | belly
+la dent | tooth
+malade | ill, sick
+le médecin | doctor
+la pharmacie | pharmacy
+l'hôpital (m) | hospital
+# Clothes
+les vêtements (m) | clothes
+la chemise | shirt
+le pantalon | trousers
+la robe | dress
+la jupe | skirt
+le pull | jumper, sweater
+la veste | jacket
+le manteau | coat
+les chaussures (f) | shoes
+les chaussettes (f) | socks
+le chapeau | hat
+le sac | bag
+# Colours
+la couleur | colour
+blanc | white
+noir | black
+rouge | red
+bleu | blue
+vert | green
+jaune | yellow
+orange | orange (colour)
+rose | pink
+gris | grey
+marron | brown
+violet | purple
+# City & places
+la ville | town, city
+le village | village
+la rue | street
+la place | square; seat, space
+le magasin | shop
+le marché | market
+le supermarché | supermarket
+la boulangerie | bakery
+la banque | bank
+la poste | post office
+la gare | train station
+l'aéroport (m) | airport
+l'école (f) | school
+l'université (f) | university
+le bureau | office; desk
+l'église (f) | church
+la mosquée | mosque
+le musée | museum
+le cinéma | cinema
+le parc | park
+la plage | beach
+la mer | sea
+la montagne | mountain
+le pays | country
+la France | France
+l'Inde (f) | India
+le Pakistan | Pakistan
+# Transport
+la voiture | car
+le bus | bus
+le train | train
+le métro | underground, metro
+le vélo | bike
+l'avion (m) | plane
+le taxi | taxi
+le billet | ticket; banknote
+à pied | on foot
+# School & work
+le travail | work, job
+le livre | book
+le cahier | notebook
+le stylo | pen
+le crayon | pencil
+la page | page
+la question | question
+la réponse | answer
+la classe | class
+le professeur | teacher
+l'étudiant (m) | student
+l'élève (m) | pupil
+la langue | language; tongue
+le français | French (language)
+l'anglais (m) | English (language)
+le mot | word
+la phrase | sentence
+# Common verbs
+être | to be
+avoir | to have
+aller | to go
+venir | to come
+faire | to do, to make
+dire | to say
+parler | to speak, to talk
+manger | to eat
+boire | to drink
+aimer | to like, to love
+vouloir | to want
+pouvoir | can, to be able
+savoir | to know (a fact)
+connaître | to know (a person, place)
+voir | to see
+regarder | to watch, to look at
+écouter | to listen
+entendre | to hear
+prendre | to take
+donner | to give
+mettre | to put
+acheter | to buy
+payer | to pay
+habiter | to live (somewhere)
+travailler | to work
+étudier | to study
+apprendre | to learn
+comprendre | to understand
+lire | to read
+écrire | to write
+ouvrir | to open
+fermer | to close
+partir | to leave
+arriver | to arrive
+entrer | to come in
+sortir | to go out
+rester | to stay
+dormir | to sleep
+se lever | to get up
+s'appeler | to be called
+chercher | to look for
+trouver | to find
+attendre | to wait
+jouer | to play
+chanter | to sing
+danser | to dance
+marcher | to walk
+courir | to run
+nager | to swim
+cuisiner | to cook
+laver | to wash
+aider | to help
+penser | to think
+croire | to believe
+demander | to ask
+répondre | to answer
+commencer | to begin
+finir | to finish
+aimer bien | to quite like
+préférer | to prefer
+# Describing things
+grand | big, tall
+petit | small
+bon | good
+mauvais | bad
+beau | beautiful, handsome
+joli | pretty
+nouveau | new
+vieux | old
+jeune | young
+chaud | hot, warm
+froid | cold
+long | long
+court | short
+facile | easy
+difficile | difficult
+cher | expensive; dear
+content | glad
+heureux | happy
+triste | sad
+fatigué | tired
+gentil | kind
+sympa | nice, friendly
+intéressant | interesting
+important | important
+possible | possible
+prêt | ready
+libre | free
+plein | full
+vide | empty
+# Little words
+et | and
+ou | or
+mais | but
+avec | with
+sans | without
+pour | for
+dans | in
+sur | on
+sous | under
+devant | in front of
+derrière | behind
+à côté de | next to
+chez | at (someone's place)
+de | of, from
+à | to, at
+en | in (country, month)
+ici | here
+là | there
+très | very
+beaucoup | a lot
+un peu | a little
+trop | too (much)
+assez | enough
+aussi | also, too
+bien | well
+mal | badly
+vite | quickly
+ensemble | together
+seulement | only
+# Questions
+qui ? | who?
+quoi ? | what?
+qu'est-ce que ? | what? (asking)
+où ? | where?
+quand ? | when?
+comment ? | how?
+pourquoi ? | why?
+combien ? | how much, how many?
+quel ? | which?
+est-ce que ? | (makes a yes/no question)
+parce que | because
+# Weather
+le temps | weather; time
+le soleil | sun
+la pluie | rain
+la neige | snow
+le vent | wind
+le nuage | cloud
+il fait beau | the weather is nice
+il pleut | it's raining
+# Things & everyday
+la chose | thing
+l'argent (m) | money
+le prix | price
+le cadeau | present, gift
+la lettre | letter
+la photo | photo
+la musique | music
+le film | film
+le sport | sport
+le football | football
+le jeu | game
+le chat | cat
+le chien | dog
+l'animal (m) | animal
+l'oiseau (m) | bird
+l'arbre (m) | tree
+la fleur | flower
+le nom | name; noun
+l'adresse (f) | address
+le numéro | number
+la fête | party, festival
+les vacances (f) | holidays
+le voyage | trip
+la valise | suitcase
+le passeport | passport
+# Shopping
+je voudrais | I would like
+ça coûte combien ? | how much does it cost?
+l'euro (m) | euro
+la carte | card; map; menu
+la monnaie | change (coins)
+le kilo | kilo
+la bouteille | bottle
+le verre | glass
+la tasse | cup
+l'assiette (f) | plate
+la fourchette | fork
+le couteau | knife
+la cuillère | spoon
+le paquet | packet
+ouvert | open
+fermé | closed
+# Feelings & states
+avoir faim | to be hungry
+avoir soif | to be thirsty
+avoir chaud | to be hot
+avoir froid | to be cold
+avoir peur | to be afraid
+avoir raison | to be right
+avoir tort | to be wrong
+avoir besoin de | to need
+avoir envie de | to feel like
+avoir mal | to hurt
+j'ai … ans | I'm … years old
+# More everyday words
+le matin tôt | early morning
+midi | noon
+minuit | midnight
+la date | date
+l'anniversaire (m) | birthday
+le cours | lesson, class
+les devoirs (m) | homework
+le sac à dos | backpack
+la carte d'identité | ID card
+le lit | bed
+la douche | shower
+le savon | soap
+la serviette | towel
+le miroir | mirror
+le frigo | fridge
+la maison de campagne | country house
+la piscine | swimming pool
+la boisson | drink
+le sandwich | sandwich
+la glace | ice cream; ice; mirror
+le bonbon | sweet, candy
+la confiture | jam
+l'huile (f) | oil
+le citron | lemon
+le poivre | pepper
+l'ail (m) | garlic
+l'oignon (m) | onion
+la carotte | carrot
+le haricot | bean
+la fraise | strawberry
+le raisin | grapes
+la cerise | cherry
+nouveau | new
+moderne | modern
+propre | clean; own
+sale | dirty
+calme | calm, quiet
+fort | strong; loud
+faible | weak
+riche | rich
+pauvre | poor
