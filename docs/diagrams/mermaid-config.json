@@ -1,0 +1,1 @@
+{"theme": "neutral", "themeVariables": {"fontFamily": "Arial, Helvetica, sans-serif", "fontSize": "15px"}, "flowchart": {"htmlLabels": true, "padding": 14, "nodeSpacing": 40, "rankSpacing": 55, "wrappingWidth": 260}, "sequence": {"useMaxWidth": false, "noteMargin": 14, "boxMargin": 12, "messageMargin": 40, "actorMargin": 90, "wrap": false}}

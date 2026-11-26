@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<script>/* iPhone/iPad: no zoom when a box is tapped; pinch still works. */(function(){var u=navigator.userAgent;if(/iP(hone|ad|od)/.test(u)||(/Macintosh/.test(u)&&navigator.maxTouchPoints>1)){var m=document.querySelector('meta[name=viewport]');m.setAttribute("content",m.getAttribute("content")+",maximum-scale=1")}})();</script>
+<title>Zabaan — Français · فارسی</title>
+<meta name="description" content="A personal French and Persian tutor with spaced repetition, grammar lessons and real news.">
+<meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15171a" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Zabaan">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="brand">Zabaan <span class="ur">زبان</span></div>
+  <div class="langs" id="langs"></div>
+  <div class="script" id="script"></div>
+  <button class="ghost zb-gear" id="zbGear" type="button" aria-label="Settings">⚙︎</button>
+</header>
+<nav id="nav"></nav>
+<main id="main"><p class="muted">Loading…</p></main>
+<script src="config.js"></script>
+<script src="vendor/supabase.js"></script>
+<script src="sync.js"></script>
+<script src="data/french.js"></script>
+<script src="data/persian.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

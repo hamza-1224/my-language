@@ -1,0 +1,27 @@
+flowchart LR
+  subgraph DEV["Your iPhone or Mac"]
+    direction TB
+    UI["Lessons · Review · Read · Write"]
+    SRS["Spaced repetition<br/>each word returns after 1, 3, 6, 15, 40… days"]
+    CACHE["Local copy of your progress<br/>saved on the device"]
+    OUT["Outbox<br/>changes waiting to upload"]
+    UI -->|"you answer, read or write"| SRS
+    SRS --> CACHE
+    CACHE -->|"queued"| OUT
+  end
+  subgraph SB["Supabase"]
+    direction TB
+    AUTH["Sign-in<br/>only your account, sign-ups off"]
+    DB[("docs table<br/>zb_state: settings · fr · fa")]
+    RT["Realtime<br/>announces every change"]
+    AUTH --> DB --> RT
+  end
+  subgraph GH["GitHub"]
+    direction TB
+    ACT["Action every 3 hours<br/>reads French and Persian news feeds"]
+    FEEDS["feeds branch<br/>fr.json · fa.json"]
+    ACT --> FEEDS
+  end
+  OUT -->|"upload when online"| AUTH
+  RT -->|"your other devices update"| CACHE
+  FEEDS -->|"today's articles"| UI

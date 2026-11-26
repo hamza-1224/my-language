@@ -1,0 +1,12 @@
+{
+  "appId": "io.github.hamza1224.zabaan",
+  "appName": "Zabaan",
+  "webDir": "www",
+  "backgroundColor": "#F6F4EF",
+  "ios": {
+    "contentInset": "never",
+    "scrollEnabled": true,
+    "limitsNavigationsToAppBoundDomains": false,
+    "preferredContentMode": "mobile"
+  }
+}
