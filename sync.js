@@ -5,7 +5,7 @@
    Every key in localStorage starts with "zb." because the site shares its origin with
    My Budget and Kanban on github.io. */
 (function () {
-  const APP_VERSION = "1.0.0";
+  const APP_VERSION = "1.1.0";
   const REMOTE = "https://hamza-1224.github.io/my-language/";
   const FEEDS = "https://raw.githubusercontent.com/hamza-1224/my-language/feeds/";
   const NATIVE = location.protocol === "capacitor:" || location.protocol === "tauri:" || !!window.ZB_NATIVE_TEST;
@@ -107,7 +107,7 @@
   }
   function notice(msg) {
     let el = document.getElementById("zbNotice");
-    if (!el) { el = document.createElement("div"); el.id = "zbNotice"; const nav = document.getElementById("nav"); nav.parentNode.insertBefore(el, nav.nextSibling); }
+    if (!el) { el = document.createElement("div"); el.id = "zbNotice"; const main = document.getElementById("main"); main.parentNode.insertBefore(el, main); }
     el.textContent = msg || ""; el.hidden = !msg;
   }
   let store = null, user = null, demo = false, sb = null;
@@ -116,14 +116,14 @@
     if (!store) return;
     notice(navigator.onLine ? "" : "You're offline. Progress is saved here and syncs when you're back online." + (store.pendingCount() ? " (" + store.pendingCount() + " waiting)" : ""));
   }
-  const brand = '<div class="brand">Zabaan <span class="ur">زبان</span></div>';
+  const brand = '<div class="auth-hero"><img src="img/wave.png" alt=""><div class="logo">zabaan</div></div>';
   function showLogin(msg) {
     const el = overlay('<div class="zb-auth"><div class="card zb-auth-card">' + brand +
       '<h2>Sign in</h2><p class="muted">Use your My Budget account. Your progress syncs between your iPhone and Mac.</p>' +
       '<form id="zbForm"><label class="muted" for="zbE">Email</label><input id="zbE" type="email" autocomplete="email" inputmode="email" required>' +
       '<label class="muted" for="zbP">Password</label><input id="zbP" type="password" autocomplete="current-password" required>' +
-      '<div class="zb-err" id="zbErr" role="alert">' + esc(msg || "") + '</div><button class="primary big" id="zbGo" type="submit">Sign in</button></form>' +
-      '<button class="big" id="zbDemo" type="button">Try the demo</button><p class="muted" style="text-align:center">The demo keeps its progress in your browser only.</p></div></div>');
+      '<div class="zb-err" id="zbErr" role="alert">' + esc(msg || "") + '</div><button class="btn green wide" id="zbGo" type="submit">Sign in</button></form>' +
+      '<button class="btn wide" id="zbDemo" type="button">Try the demo</button><p class="muted" style="text-align:center">The demo keeps its progress in your browser only.</p></div></div>');
     el.querySelector("#zbForm").addEventListener("submit", async e => {
       e.preventDefault(); const b = el.querySelector("#zbGo"), err = el.querySelector("#zbErr"); b.disabled = true; err.textContent = "";
       try { const r = await sb.auth.signInWithPassword({ email: el.querySelector("#zbE").value.trim(), password: el.querySelector("#zbP").value }); if (r.error) throw r.error; }
@@ -132,15 +132,15 @@
     el.querySelector("#zbDemo").addEventListener("click", startDemo);
   }
   function showMessage(title, body) {
-    overlay('<div class="zb-auth"><div class="card zb-auth-card">' + brand + '<h2>' + esc(title) + '</h2><p class="muted">' + esc(body) + '</p><button class="primary big" onclick="location.reload()">Try again</button></div></div>');
+    overlay('<div class="zb-auth"><div class="card zb-auth-card">' + brand + '<h2>' + esc(title) + '</h2><p class="muted">' + esc(body) + '</p><button class="btn green wide" onclick="location.reload()">Try again</button></div></div>');
   }
   function openSettings() {
-    const el = overlay('<div class="zb-sheet-scrim" id="zbScrim"><div class="card zb-sheet" role="dialog" aria-modal="true"><div class="row" style="justify-content:space-between"><h2>Settings</h2><button class="ghost" id="zbClose" aria-label="Close">✕</button></div>' +
+    const el = overlay('<div class="zb-sheet-scrim" id="zbScrim"><div class="card zb-sheet" role="dialog" aria-modal="true"><div class="row" style="justify-content:space-between"><h2>Settings</h2><button class="x" id="zbClose" aria-label="Close">✕</button></div>' +
       (demo ? '<p><b>Demo</b><br><span class="muted">Progress is kept in this browser only.</span></p>'
             : '<p><b>Signed in as</b><br><span class="muted">' + esc(user && user.email) + '</span></p><p><b>Sync</b><br><span class="muted">' + (navigator.onLine ? (store.pendingCount() ? store.pendingCount() + " change(s) waiting" : "Up to date") : "Offline") + '</span></p>') +
       '<p><b>Progress file</b><br><span class="muted">Bring in progress.json from the laptop version, or save a copy.</span></p>' +
-      '<div class="row"><label class="zb-file"><input type="file" id="zbImport" accept=".json,application/json" hidden><span>Import progress.json</span></label><button id="zbExport">Save a copy</button></div>' +
-      '<p class="row" style="margin-top:18px"><button id="zbOut" class="zb-danger">' + (demo ? "Leave demo" : "Sign out") + '</button></p>' +
+      '<div class="row"><label class="zb-file"><input type="file" id="zbImport" accept=".json,application/json" hidden><span>Import progress.json</span></label><button class="btn" id="zbExport">Save a copy</button></div>' +
+      '<p class="row" style="margin-top:18px"><button id="zbOut" class="btn red-outline">' + (demo ? "Leave demo" : "Sign out") + '</button></p>' +
       '<p class="muted">Version ' + APP_VERSION + '. Same account as My Budget and Kanban; each app keeps its data separate.</p></div></div>');
     const close = () => overlay("");
     el.querySelector("#zbClose").addEventListener("click", close);
@@ -230,7 +230,7 @@
       const r = await fetch((NATIVE ? REMOTE : "") + "version.json?t=" + Date.now(), { cache: "no-store" }); if (!r.ok) return; const j = await r.json();
       if (NATIVE && !(j && j.v && newer(j.v, APP_VERSION) && await nativeFetchUpdate(j.v))) return;
       if (j && j.v && j.v !== APP_VERSION && !document.getElementById("zbUpd")) {
-        const b = document.createElement("button"); b.id = "zbUpd"; b.className = "primary"; b.textContent = "Update ready · tap to reload";
+        const b = document.createElement("button"); b.id = "zbUpd"; b.className = "btn green"; b.textContent = "Update ready · tap to reload";
         b.addEventListener("click", () => location.reload()); document.body.appendChild(b);
       }
     } catch (e) {}

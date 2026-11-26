@@ -17,5 +17,6 @@ if (!v) throw new Error("APP_VERSION not found");
 writeFileSync(www + "app.html", html);
 for (const f of ["config.js", "manifest.webmanifest", "icon-192.png", "icon-512.png", "apple-touch-icon.png", "vendor/supabase.js"]) cpSync(root + f, www + f);
 cpSync(root + "fonts", www + "fonts", { recursive: true });
+cpSync(root + "img", www + "img", { recursive: true });
 writeFileSync(www + "index.html", readFileSync(new URL("./loader.html", import.meta.url), "utf8"));
 console.log("assembled www with app", v);
