@@ -27,9 +27,7 @@ A personal tutor for **French** and **Persian**, built for an Urdu and Hindi spe
 
 ## How it works
 
-<p><img src="docs/diagrams/arch.png" alt="Architecture: on the device, lessons and reviews update the spaced-repetition schedule and a local copy of progress, which an outbox uploads to Supabase; Realtime updates other devices; a GitHub Action fetches news feeds every 3 hours into the feeds branch, which the Read tab loads"></p>
-
-<p><img src="docs/diagrams/sync.png" alt="Sync: answering a review card schedules the word and saves it on the phone; online, it uploads and Realtime updates the Mac; offline on both devices, the copies are merged when they reconnect"></p>
+<p><img src="docs/diagrams/overview.png" alt="Overview: the app on iPhone, Mac or the web syncs your progress with Supabase, and downloads app updates, Persian audio and weekly articles from GitHub"></p>
 
 - **Static site, no server.** HTML, CSS and vanilla JavaScript: `app.js` (the tutor), `sync.js` (sign-in, sync, offline and updates) and the course content in `data/`.
 - **Word lists.** The lists are plain text in `vocab/` (`# Topic` headers, then `word | english | …`). `scripts/build_vocab.py` turns them into `data/frvocab.js` and `data/favocab.js`, adding pronunciation in Urdu/Hindi script with espeak-ng.
